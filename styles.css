@@ -9,6 +9,16 @@
     visibility: hidden;
   }
 }
+@media only screen and (max-width: 900px) { /* Adjust page for phones */
+  .skills >img {
+    display: none;
+    visibility: hidden;
+  }
+  .footnav {
+    display: none;
+    visibility: hidden;
+  }
+}
 
 .image { /* Background image */
   background: url("wind.jpg") no-repeat;
