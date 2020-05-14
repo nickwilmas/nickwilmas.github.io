@@ -1,0 +1,184 @@
+/* Nick Wilmas styles.css */
+@media only screen and (max-width: 600px) { /* Adjust page for phones */
+  .skills {
+    flex-direction: column;
+  }
+
+  .footnav {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+.image { /* Background image */
+  background: url("wind.jpg") no-repeat;
+  height: 725px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+html * { /* Change Font globally */
+  font-family: 'Jost', serif;
+}
+.textfont {
+  text-align: center;
+  padding-top: 300px;
+  font-family: 'Jost', serif;
+  color: white;
+  font-size: 50px;
+}
+
+.sub {
+  text-align: center;
+  color: white;
+}
+
+.nav { /* Nav bar */
+  text-align: center;
+  line-height: 50px;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  height: 50px;
+  background-color: #D2D2D2;
+}
+
+nav>a { /*Makes nav bar look better */
+  text-decoration: none;
+  margin-right: 25px;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+
+nav>a:hover { /*When hovering nav bar */
+  text-shadow: 2px 2px 5px black;
+}
+
+.current { /*Highlight current page in nav */
+  text-shadow: 2px 2px 5px black;
+}
+
+* { /*Get rid of white space on borders */
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+.head>img { /* Adjust and center image */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  width: 175px;
+  height: 200px;
+}
+
+.head {
+  text-align: center;
+  background-color: #EBEBEB;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 75px;
+  background-color: #D2D2D2;
+  padding-left: 20px;
+}
+
+.head>h1 {
+  font-size: 25px;
+  border-bottom: solid;
+  border-bottom-width: thin;
+}
+
+.footnav { /*Edit footer nav */
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  padding-left: 100px;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  padding-right: 25px;
+  background-color: #D2D2D2;
+  border-right: solid;
+  font-size: 17px;
+}
+
+.flex1>p {
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.skills { /*Make flex boxes */
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  padding-top: 50px;
+  justify-content: space-evenly;
+}
+
+.skills>div { /*More flex boxes */
+  height: 200px;
+  border-radius: 6px;
+  flex: 0 19%;
+  margin-top: 50px;
+  background-color: #EBEBEB;
+  text-align: center;
+}
+
+.javascript:hover {
+  box-shadow: 0 0 3px #FF0000;
+}
+
+.html:hover {
+  box-shadow: 0 0 3px #FF0000;
+}
+
+.node:hover {
+  box-shadow: 0 0 3px #FF0000;
+}
+
+.python:hover { /*Hovering box  */
+  box-shadow: 0 0 3px #FF0000;
+}
+
+.title>h1 {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.text>p {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+}
+
+.container {
+  background-color: #EBEBEB;
+}
+.skilltext > p { margin-bottom: 200px; text-align: center; font-size: 17px;}
